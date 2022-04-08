@@ -1,0 +1,4 @@
+spark-submit --conf spark.executor.cores=1 --conf spark.executor.instances=2 --conf spark.executor.memory=2g --conf spark.driver.memory=1g --class=com.cosmian.spark.Encrypt {file} "s3a://uceurocontrolcosmian/atterrissage/Airport_Traffic.parquet" "s3a://uceurocontrolcosmian/atterrissage/Airport_Traffic.encrypted.parquet"
+
+
+spark-submit --conf spark.executor.cores=1 --conf spark.executor.instances=2 --conf spark.executor.memory=2g --conf spark.driver.memory=1g --class=com.cosmian.spark.Encrypt {file} "s3a://uceurocontrolcosmian/atterrissage/Airport_Traffic.encrypted.parquet" "s3a://uceurocontrolcosmian/atterrissage/Airport_Traffic.decrypted.parquet" all all

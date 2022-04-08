@@ -1,0 +1,15 @@
+{
+    "YEAR": "2016",
+    "MONTH_NUM": "1",
+    "MONTH_MON": "JAN",
+    "FLT_DATE": "2016-01-29",
+    "APT_ICAO": "LFPO",
+    "STATE_NAME": "France",
+    "FLT_DEP_1": "30",
+    "FLT_ARR_1": "308",
+    "FLT_TOT_1": "305",
+    "FLT_DEP_IFR_2": "613",
+    "FLT_ARR_IFR_2": "308.0",
+    "FLT_TOT_IFR_2": 305,
+    "Pivot_Label": "613.0"
+}

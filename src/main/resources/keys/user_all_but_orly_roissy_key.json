@@ -1,0 +1,93 @@
+{
+  "tag" : "PrivateKey",
+  "value" : [ {
+    "tag" : "KeyBlock",
+    "value" : [ {
+      "tag" : "KeyFormatType",
+      "type" : "Enumeration",
+      "value" : "AbeUserDecryptionKey"
+    }, {
+      "tag" : "KeyValue",
+      "value" : [ {
+        "tag" : "KeyMaterial",
+        "type" : "ByteString",
+        "value" : "00000002AF12175543EE56B25F6DD19F23862324E052BA0E33F8D131B7F97EB9F444B1424B3889DA7A802DDFCCDF3573792A02E717F54DCBC74653C6CF0F3526D5FD87D60E79CACFC1B62986E7337660061AFB4450DAD9E46B4068611CC7031D88B5C70AB247D28B3C1E48684284E7819A62A9A673BFF33BF27DBF8A3F873FE9EC76F7F9D000BBD13BB85414D76E3D0798EDDC6806AA1A19541B991F78F7BD8CCB91537064E99F9C74203FE7A8A19C81B485E8981CC13D5014F6AD21605B72F2192040B60000000200000001000000020000000301000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000"
+      }, {
+        "tag" : "Attributes",
+        "value" : [ {
+          "tag" : "CryptographicAlgorithm",
+          "type" : "Enumeration",
+          "value" : "ABE"
+        }, {
+          "tag" : "KeyFormatType",
+          "type" : "Enumeration",
+          "value" : "AbeUserDecryptionKey"
+        }, {
+          "tag" : "Link",
+          "value" : [ {
+            "tag" : "Link",
+            "value" : [ {
+              "tag" : "LinkType",
+              "type" : "Enumeration",
+              "value" : "ParentLink"
+            }, {
+              "tag" : "LinkedObjectIdentifier",
+              "type" : "TextString",
+              "value" : "c6eb7030-b1bb-41d1-b703-098a3f37be85"
+            } ]
+          } ]
+        }, {
+          "tag" : "ObjectType",
+          "type" : "Enumeration",
+          "value" : "PrivateKey"
+        }, {
+          "tag" : "VendorAttributes",
+          "value" : [ {
+            "tag" : "VendorAttributes",
+            "value" : [ {
+              "tag" : "String",
+              "type" : "TextString",
+              "value" : "cosmian"
+            }, {
+              "tag" : "String",
+              "type" : "TextString",
+              "value" : "abe_attributes"
+            }, {
+              "tag" : "String",
+              "type" : "TextString",
+              "value" : "abe_policy"
+            }, {
+              "tag" : "String",
+              "type" : "TextString",
+              "value" : "abe_access_policy"
+            }, {
+              "tag" : "String",
+              "type" : "TextString",
+              "value" : "abe_header_uid"
+            }, {
+              "tag" : "VendorIdentification",
+              "type" : "TextString",
+              "value" : "cosmian"
+            }, {
+              "tag" : "AttributeName",
+              "type" : "TextString",
+              "value" : "abe_access_policy"
+            }, {
+              "tag" : "AttributeValue",
+              "type" : "ByteString",
+              "value" : "7B224F72223A5B7B2241747472223A22416972706F72743A3A4F746865724672616E6365227D2C7B2241747472223A22416972706F72743A3A4E6F6E4672616E6365227D5D7D"
+            } ]
+          } ]
+        } ]
+      } ]
+    }, {
+      "tag" : "CryptographicAlgorithm",
+      "type" : "Enumeration",
+      "value" : "ABE"
+    }, {
+      "tag" : "CryptographicLength",
+      "type" : "Integer",
+      "value" : 2208
+    } ]
+  } ]
+}

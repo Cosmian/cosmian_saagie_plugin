@@ -1,0 +1,10 @@
+{
+    "files.watcherExclude": {
+        "**/target": true
+    },
+    "cSpell.words": [
+        "Charsets",
+        "javax",
+        "servlet"
+    ]
+}

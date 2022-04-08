@@ -1,0 +1,6 @@
+/zipcodes.csv.parquet
+/target
+/project/target
+/*.encrypted.parquet
+/*.decrypted.parquet
+/*.partitioned.parquet
